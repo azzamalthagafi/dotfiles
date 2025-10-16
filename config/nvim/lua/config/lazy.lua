@@ -33,7 +33,6 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.coding.mini-snippets" },
     { import = "lazyvim.plugins.extras.coding.nvim-cmp" },
 
-    { import = "lazyvim.plugins.extras.ui.mini-starter" },
     -- END extras
 
     { import = "plugins" },
