@@ -17,24 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-
-    -- START extras
-    { import = "lazyvim.plugins.extras.lang.docker" },
-    { import = "lazyvim.plugins.extras.lang.git" },
-    { import = "lazyvim.plugins.extras.lang.haskell" },
-    { import = "lazyvim.plugins.extras.lang.json" },
-    { import = "lazyvim.plugins.extras.lang.markdown" },
-    { import = "lazyvim.plugins.extras.lang.nix" },
-    { import = "lazyvim.plugins.extras.lang.typescript" },
-
-    { import = "lazyvim.plugins.extras.coding.yanky" },
-    { import = "lazyvim.plugins.extras.coding.mini-surround" },
-    { import = "lazyvim.plugins.extras.coding.mini-comment" },
-    { import = "lazyvim.plugins.extras.coding.mini-snippets" },
-    { import = "lazyvim.plugins.extras.coding.nvim-cmp" },
-
-    -- END extras
-
     { import = "plugins" },
   },
   defaults = {
