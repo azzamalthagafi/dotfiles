@@ -23,7 +23,7 @@ require("lazy").setup({
     lazy = false,
     version = false,
   },
-  install = { missing = true, colorscheme = { "gruvbox" } },
+  install = { missing = true },
   checker = {
     enabled = true,
     notify = true,
