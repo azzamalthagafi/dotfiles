@@ -10,7 +10,4 @@ ln -Fs "$PWD/config/nvim/" ~/.config/nvim/
 # Link .tmux.conf
 ln -s "$PWD/tmux/.tmux.conf" ~/.tmux.conf
 
-# Link local bin files
-ln -Fs "$PWD/local/bin/scripts/" ~/.local/bin/scripts
-
 echo "Dotfiles linked successfully!"
