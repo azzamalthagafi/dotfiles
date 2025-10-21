@@ -7,7 +7,7 @@ mkdir -p ~/.config/tmux-powerline
 mkdir -p ~/.config/tmux-powerline/themes
 
 # Link nvim config files
-ln -Fs "$PWD/config/nvim/" ~/.config/nvim/
+ln -Fs "$PWD/config/nvim" ~/.config/nvim
 
 # Link .tmux.conf
 ln -s "$PWD/tmux/.tmux.conf" ~/.tmux.conf
