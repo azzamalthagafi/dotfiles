@@ -169,13 +169,13 @@ if [ -z "$TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS" ]; then
         # "cpu 240 136"
         #"load 237 167"
         # "tmux_mem_cpu_load 234 136"
-        "battery $blue $thm_bg"
-        #"weather 37 255"
+        "battery $pink $thm_bg"
+        "weather $maroon $thm_bg"
         # "rainbarf 0 ${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR}"
         # "xkb_layout 125 117"
         # "date_day $teal $thm_bg"
-        "date $teal $thm_bg ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
-        "time $teal $thm_bg ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
-        "utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
+        "date $sapphire $thm_bg"
+        "time $sapphire $thm_bg ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}"
+        "utc_time $sky $thm_bg"
     )
 fi

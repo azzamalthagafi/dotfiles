@@ -13,7 +13,7 @@ export TMUX_POWERLINE_ERROR_LOGS_SCOPES=""
 export TMUX_POWERLINE_PATCHED_FONT_IN_USE="true"
 
 # The theme to use.
-export TMUX_POWERLINE_THEME="default"
+export TMUX_POWERLINE_THEME=tmux-theme
 # Overlay directory to look for themes. There you can put your own themes outside the repo. Fallback will still be the "themes" directory in the repo.
 export TMUX_POWERLINE_DIR_USER_THEMES="${XDG_CONFIG_HOME:-$HOME/.config}/tmux-powerline/themes"
 # Overlay directory to look for segments. There you can put your own segments outside the repo. Fallback will still be the "segments" directory in the repo.
@@ -440,11 +440,11 @@ export TMUX_POWERLINE_SEG_VCS_BRANCH_SVN_SYMBOL_COLOUR="220"
 # The data provider to use. Currently only "yrno" is supported.
 export TMUX_POWERLINE_SEG_WEATHER_DATA_PROVIDER="yrno"
 # What unit to use. Can be any of {c,f,k}.
-export TMUX_POWERLINE_SEG_WEATHER_UNIT="c"
+export TMUX_POWERLINE_SEG_WEATHER_UNIT="f"
 # How often to update the weather in seconds.
 export TMUX_POWERLINE_SEG_WEATHER_UPDATE_PERIOD="600"
 # How often to update the weather location in seconds (this is only used when latitude and longitude settings are set to "auto")
-export TMUX_POWERLINE_SEG_WEATHER_LOCATION_UPDATE_PERIOD="86400"
+export TMUX_POWERLINE_SEG_WEATHER_LOCATION_UPDATE_PERIOD="600"
 # Your location
 # Latitude and Longtitude for use with yr.no
 # Set both to "auto" to detect automatically based on your IP address, or set them manually
@@ -456,5 +456,3 @@ export TMUX_POWERLINE_SEG_WEATHER_LON="auto"
 # Keyboard icon
 export TMUX_POWERLINE_SEG_XKB_LAYOUT_ICON="⌨ "
 # }
-
-export TMUX_POWERLINE_THEME=tmux-theme
